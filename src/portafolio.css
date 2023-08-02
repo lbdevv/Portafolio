@@ -25,3 +25,8 @@ a {
   flex-grow: 1; /* allow the normal column to grow to fill remaining space */
   padding: 10px;
 }
+
+.card{
+  color: white !important;
+  background-color: #333232 !important;
+}

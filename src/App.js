@@ -55,75 +55,43 @@ const App = () => {
 
         <Col md={8} style={{ color: 'white' }} className='normal-column'>
           <h2>Experiencias</h2>
-          <Card style={{ width: '18rem' }}>
+          <p className='my-5'>
+            Comencé en este mundo desde el año 2018 cuando decidí comenzar a estudiar programación.
+            Realmente tenía curiosidad por entender como funcionaban las cosas en profundidad y valoro bastante los trabajos que tienen que ver
+            con lo creativo y la generación de cosas que ayudan a los demás. 
+          </p>
+
+          <Card className='my-5'> 
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Ecomsur (2020-2023 Actual)</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                  Trabajando en OMS (Order Management System) sistema de ordenes para proyectos de E-Commerce
+                  especialmente enfocado en el Fullcommerce en otras palabras en el proceso completo desde que se genera la compra hasta
+                  que el pedido llega al cliente
+
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Ver más detalles</Button>
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '18rem' }}>
+          <Card className='my-5'>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Geogest (2019 - 2020)</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                  Trabajando en le diseño y creación de un sistema de contabilidad y remuneraciones.
+                  realicé trabajos como:
+                  -Diseño y creación de bases de datos (3sera forma normal)
+                  -Implementación de la lógica de negocio con ASP.NET MVC, Entity Framework, LinQ etc...
+                  -FrontEnd con Razor, html, css, jquery
+                  -Optimización de Querys para reportería contable SQL y Linq to SQL
+                  -Creación de más de 14 reportes contables con filtros
+                  -Exportaciones masivas
+                  -Importaciones masivas
+                  -Sistema de Usuarios y Roles
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">Ver más detalles</Button>
             </Card.Body>
           </Card>
         </Col>
