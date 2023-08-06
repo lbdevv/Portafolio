@@ -9,19 +9,19 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const App = () => {
 
-  // const stickyColumn = document.querySelector(".sticky-column");
-  // const normalColumn = document.querySelector(".normal-column");
+   //const stickyColumn = document.querySelector(".sticky-column");
+   //const normalColumn = document.querySelector(".normal-column");
 
-  // window.addEventListener("scroll", function () {
-  //   if (window.scrollY > stickyColumn.offsetTop) {
-  //     stickyColumn.style.position = "fixed";
-  //     stickyColumn.style.top = "0";
-  //     normalColumn.style.marginLeft = `${stickyColumn.offsetWidth}px`;
-  //   } else {
-  //     stickyColumn.style.position = "static";
-  //     normalColumn.style.marginLeft = "0";
-  //   }
-  // });
+   //window.addEventListener("scroll", function () {
+     //if (window.scrollY > stickyColumn.offsetTop) {
+       //stickyColumn.style.position = "fixed";
+       //stickyColumn.style.top = "0";
+      //normalColumn.style.marginLeft = `${stickyColumn.offsetWidth}px`;
+     //} else {
+       //stickyColumn.style.position = "static";
+       //normalColumn.style.marginLeft = "0";
+     //}
+   //});
 
   return (
     <Container className='my-5'>
@@ -54,33 +54,44 @@ const App = () => {
         </Col>
 
         <Col md={8} style={{ color: 'white' }} className='normal-column'>
-          <h2>Experiencias</h2>
-          <p className='my-5'>
+          <h2>Sobre mi</h2>
+          <p className='my-3'>
             Comencé en este mundo desde el año 2018 cuando decidí comenzar a estudiar programación.
             Realmente tenía curiosidad por entender como funcionaban las cosas en profundidad y valoro bastante los trabajos que tienen que ver
-            con lo creativo y la generación de cosas que ayudan a los demás. 
+            con lo creativo y la generación de cosas que ayudan a los demás. Por lo tanto esta elección era ideal considerando que es una de las pocas herramientas
+            que te permiten crear infinidad de cosas solo con 1 herramienta fisica.
           </p>
 
-          <Card className='my-5'> 
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Ecomsur (2020-2023 Actual)</Card.Title>
-              <Card.Text>
-                  Trabajando en OMS (Order Management System) sistema de ordenes para proyectos de E-Commerce
-                  especialmente enfocado en el Fullcommerce en otras palabras en el proceso completo desde que se genera la compra hasta
-                  que el pedido llega al cliente
+          <h2 className='my-5'>Experiencias</h2>
+          <div className='project-item my-3'>
+              <div className='poject-item-title'>
+                <h2>Ecomsur (2020-2023 Actual)</h2>
+              </div>
+              <div className='project-item-content'>
+              <p>
+                Trabajando en OMS (Order Management System) sistema de ordenes para proyectos de E-Commerce
+                especialmente enfocado en el Fullcommerce en otras palabras en el proceso completo desde que se genera la compra hasta
+                que el pedido llega al cliente
+              </p>
 
-              </Card.Text>
-              <Button variant="primary">Ver más detalles</Button>
-            </Card.Body>
-          </Card>
+              </div>
+              <div className='project-item-footer'>
+                  <ul className='tecnology-tags'>
+                      <li>SQL server</li>
+                      <li>.NET Framework</li>
+                      <li>Azure</li>
+                      <li>Azure Webjobs</li>
+                  </ul>
+              </div>
+          </div>
 
-          <Card className='my-5'>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Geogest (2019 - 2020)</Card.Title>
-              <Card.Text>
-                  Trabajando en le diseño y creación de un sistema de contabilidad y remuneraciones.
+          <div className='project-item my-5'>
+              <div className='poject-item-title'>
+                <h2>Geogest (2019 - 2020)</h2>
+              </div>
+              <div className='project-item-content'>
+                <p>
+                Trabajando en le diseño y creación de un sistema de contabilidad y remuneraciones.
                   realicé trabajos como:
                   -Diseño y creación de bases de datos (3sera forma normal)
                   -Implementación de la lógica de negocio con ASP.NET MVC, Entity Framework, LinQ etc...
@@ -90,10 +101,38 @@ const App = () => {
                   -Exportaciones masivas
                   -Importaciones masivas
                   -Sistema de Usuarios y Roles
-              </Card.Text>
-              <Button variant="primary">Ver más detalles</Button>
-            </Card.Body>
-          </Card>
+                </p>
+              </div>
+              <div className='project-item-footer'>
+              <ul className='tecnology-tags'>
+                      <li>SQL server</li>
+                      <li>.NET Framework</li>
+                      <li>Azure</li>
+                      <li>Azure Webjobs</li>
+                  </ul>
+              </div>
+          </div>
+
+          <div className='project-item my-5'>
+          <div className='poject-item-title'>
+                <h2>Telmex (Freelance)</h2>
+              </div>
+              <div className='project-item-content'>
+                <p>
+                  Colaboración en la creación de un buscador para toda la aplicación
+                  utilizando tecnicas de indexación y sincronización de base de datos relacional
+                  a base de datos nosql para la lectura de datos MongoDB
+                </p>
+              </div>
+              <div className='project-item-footer'>
+              <ul className='tecnology-tags'>
+                      <li>SQL server</li>
+                      <li>MongoDB</li>
+                      <li>.NET 6</li>
+                      <li>Telerik</li>
+                  </ul>
+              </div>
+          </div>
         </Col>
       </Row>
     </Container>
