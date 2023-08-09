@@ -7,7 +7,7 @@
 */
 
 body{
-  background-color: rgb(2,2,2) !important;
+  background-color: #101920!important;
 }
 
 h2{
@@ -16,7 +16,25 @@ h2{
 
 a {
   text-decoration: none !important;
-  color: white !important;
+}
+
+.nav-item a{
+  color: #A4B1CD !important;
+  font-size: 2rem;
+}
+
+.nav-item a:hover{
+  color: #741281 !important;
+  font-size: 2rem;
+}
+
+.navigation-items a{
+  color: #CDBEAD !important;
+}
+
+.navigation-items a:hover{
+  transition: 0.3s;
+  font-size: 1.2rem !important;
 }
 
 li{
@@ -37,10 +55,6 @@ li{
   padding: 10px;
 }
 
-/*
-  Tags
-*/
-
 .tecnology-tags {
   list-style: none;
   padding: 0;
@@ -51,7 +65,8 @@ li{
 .tecnology-tags li {
   display: inline-block;
   margin-right: 0.5rem; /* Agrega un espacio entre los elementos, ajusta según necesites */
-  border: 1px solid #fff;
+  background-color: #741281;
+  color: #fff;
   padding-top:0.3rem; 
   padding-bottom:0.3rem; 
   padding-right: 0.6rem;
@@ -67,4 +82,16 @@ li{
   text-decoration: none;
   color: #333; /* Color del texto del enlace */
   padding: 5px 10px; /* Ajusta el padding para aumentar el área de clic del enlace */
+}
+
+.project-item{
+  padding: 1rem;
+}
+
+.project-item:hover{
+  transition: 0.5s;
+  background-color: transparent;
+  background-color: rgba(248, 239, 239, 0.171);
+  border-radius: 5px;
+  cursor: pointer;
 }
